@@ -39,7 +39,7 @@ const CustomNavbar = () => {
           <Link className={`${color ? 'nav-link active' : 'nav-link '}`} to="/tutition">Tutition</Link>
         </li>
         <li className="nav-item item dropdown">
-          <Link className={`${color ? 'nav-link active' : 'nav-link '} dropdown-toggle `} href="/classes" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link className={`${color ? 'nav-link active' : 'nav-link '} dropdown-toggle `} to="/classes" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Classes
           </Link>
           <ul className="dropdown-menu">

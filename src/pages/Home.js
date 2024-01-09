@@ -39,7 +39,7 @@ const Home = () => {
                 modi minima sunt esse temporibus sint culpa, recusandae aliquam numquam
                 totam ratione voluptas quod exercitationem fuga. Possimus quis earum veniam
                 quasi aliquam eligendi, placeat qui corporis!
-                </p>
+            </p>
             <div className='container'>
                 <div className='row justify-content-center '>
                     <div className='col-6'>
@@ -119,7 +119,64 @@ const Home = () => {
             </div>
             <div className='hr'></div>
             <h3 className='text-center mb-5'>News</h3>
-
+            <div className='row  news mb-5 ms-5'>
+                <div className='col-4 '>
+                    <div class="card" style={{ width: '18rem' }}>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div className='col-4'>
+                    <div class="card" style={{ width: '18rem' }}>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div className='col-4'>
+                    <div class="card" style={{ width: '18rem' }}>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='row news ms-5'>
+                <div className='col-4'>
+                    <div class="card" style={{ width: '18rem' }}>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div className='col-4 '>
+                    <div class="card" style={{ width: '18rem' }}>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div className='col-4'>
+                    <div class="card" style={{ width: '18rem' }}>
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

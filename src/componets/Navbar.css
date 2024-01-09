@@ -38,6 +38,9 @@
     margin-right: 15px;
     
   }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+}
 
   .btn-warning{
     background-color: #FFA700 !important;

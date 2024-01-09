@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Container } from 'react-bootstrap';
 import CustomNavbar from './componets/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -14,8 +13,6 @@ function App() {
     <Router>
       <div>
         <CustomNavbar />
-
-        <Container className="mt-3">
           <Routes>
             <Route path="/"  element={<Home/>} />
             <Route path="/about" element={<About/>} />
@@ -24,7 +21,7 @@ function App() {
             <Route path="/location" element={<Location/>} />
             <Route path="/contact" element={<Contact/>} />
           </Routes>
-        </Container>
+   
       </div>
     </Router>
   );
